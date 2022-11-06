@@ -1,0 +1,25 @@
+@import 'styl/variables'
+@import 'styl/mixins'
+// @import 'styl/*'
+
+
+rupture.scale = 0 400px 600px 800px 1050px 1800px
+
+rupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'
+
+body
+    background primary
+    color rgba(primary, 0.9)
+    main
+        flex-center()
+        py(100)
+        
+
+
+h1 
+    py()
+    test(5)
+    +below('l')
+            color red
+            font-size: 100px
+    

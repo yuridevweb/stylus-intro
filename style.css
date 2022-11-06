@@ -1,0 +1,20 @@
+body {
+  background: #c09494;
+  color: rgba(192,148,148,0.9);
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 100 0px;
+}
+h1 {
+  padding: 100px 0px;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 1050px) {
+  h1 {
+    color: #f00;
+    font-size: 100px;
+  }
+}
